@@ -23,14 +23,18 @@
 ![tiny-todo](https://user-images.githubusercontent.com/90893596/172014626-f6990b7c-12d6-42c2-b347-89decaf7048b.png)
 
 <br/>
+
 ### 파일
+
 #### `/src/store/`
+
 |파일|내용|
 |---|---|
 |`index`|reducer 병합|
 |`todoSlice`|todo 리스트 기본 설정<br/>todo 추가, todo 삭제, 체크박스|
 
 #### `/src/components/`
+
 |파일|내용|
 |---|---|
 |`canlendar/Calendar`|현재 날짜|
