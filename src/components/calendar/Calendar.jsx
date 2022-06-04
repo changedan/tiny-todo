@@ -19,7 +19,7 @@ export default function Calendar() {
 
   useEffect(() => {
     setYear(thisMonth.getFullYear());
-    setMonth(thisMonth.getMonth());
+    setMonth(thisMonth.getMonth() + 1);
     setDay(thisMonth.getDate());
   }, []);
 
