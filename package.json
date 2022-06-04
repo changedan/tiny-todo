@@ -2,13 +2,12 @@
   "name": "tiny-todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tiny-todo.dannsgo.com",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "dayjs": "^1.11.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
@@ -17,6 +16,7 @@
     "sass": "^1.52.2",
     "web-vitals": "^2.1.0"
   },
+  "homepage": "https://tiny-todo.dannsgo.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
