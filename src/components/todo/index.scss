@@ -1,0 +1,73 @@
+form {
+  display: flex;
+  inline-size: 100%;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    font-size: 14px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    inline-size: 90%;
+    margin: 2px;
+    padding: 4px;
+    border-bottom: 1px solid #263238;
+  }
+}
+
+ul {
+  block-size: 260px;
+  overflow: auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  inline-size: 98.5%;
+  margin: 2px;
+  padding: 2px 0;
+  align-items: center;
+  justify-content: space-between;
+
+  .todo-list {
+    display: flex;
+    align-items: center;
+
+    input[type='checkbox'] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border-radius: 50%;
+      border: 1px solid #263238;
+      cursor: pointer;
+      height: 14px;
+      width: 14px;
+      outline: 0;
+    }
+
+    input[type='checkbox']::after {
+      border: solid #fff;
+      border-width: 0 2px 2px 0;
+      content: '';
+      display: none;
+      height: 40%;
+      left: 40%;
+      position: relative;
+      top: 20%;
+      transform: rotate(45deg);
+      width: 15%;
+    }
+    input[type='checkbox']:checked {
+      background: #263238;
+    }
+
+    span {
+      margin-left: 4px;
+    }
+  }
+}
+
+input[type='checkbox'] {
+  border-radius: 50%;
+}

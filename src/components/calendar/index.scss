@@ -1,0 +1,16 @@
+.calendar {
+  display: flex;
+  margin: 10px 6px;
+  grid-gap: 10px;
+  align-items: flex-end;
+
+  .year,
+  .month {
+    font-size: 16px;
+  }
+
+  .day {
+    font-size: 24px;
+    font-weight: 900;
+  }
+}

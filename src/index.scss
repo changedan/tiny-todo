@@ -1,0 +1,26 @@
+* {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+body {
+  inline-size: 100vw;
+  block-size: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #263238;
+  -ms-overflow-style: none;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .todo__wrap {
+    inline-size: 350px;
+    block-size: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #ffffff;
+  }
+}
