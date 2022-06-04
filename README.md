@@ -20,7 +20,7 @@
 <br/>
 
 ## 구현
-![tiny-todo](https://user-images.githubusercontent.com/90893596/172014626-f6990b7c-12d6-42c2-b347-89decaf7048b.png)
+![tiny-todo](https://user-images.githubusercontent.com/90893596/172016463-0a3c7ea4-6115-4b2a-9cb1-48f765ad9edf.png)
 
 <br/>
 
