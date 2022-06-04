@@ -20,7 +20,8 @@
 <br/>
 
 ## 구현
-![tiny-todo](https://user-images.githubusercontent.com/90893596/172002245-8e8fcf5b-0a0b-4ae3-9259-e870ddd494c6.png)
+![tiny-todo](https://user-images.githubusercontent.com/90893596/172014626-f6990b7c-12d6-42c2-b347-89decaf7048b.png)
+
 <br/>
 ### 파일
 #### `/src/store/`
