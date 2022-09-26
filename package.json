@@ -16,7 +16,7 @@
     "sass": "^1.52.2",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "https://tiny-todo.dannsgo.com",
+  "homepage": "https://tiny-todo.parkgadan.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
