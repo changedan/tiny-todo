@@ -32,7 +32,7 @@ const todoSlice = createSlice({
   reducers: {
     addTodo: (state, action) => {
       const newTodo = {
-        id: Date.now(),
+        id: Math.max(...state.map((todo) => todo.id)) + 1,
         text: action.payload.text,
         done: false,
       };
